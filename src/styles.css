@@ -1,0 +1,89 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.Inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ToDo_Input {
+    width: 50%;
+    height: 30px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clearAll {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 50%;
+    overflow-wrap: normal;
+}
+
+.todoItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.todo {
+    padding: 12px;
+    width: 80%;
+    margin-right: auto;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.todoValue {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit {
+    cursor: pointer;
+    margin: 0px 16px;
+}
+
+.delete {
+    margin: 0px 16px;
+    cursor: pointer;
+}
+
+.pagination {
+    padding: 10px;
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination>span {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.page_selected {
+    font-weight: bold;
+}
+
+.button_disabled {
+    opacity: 0;
+}
