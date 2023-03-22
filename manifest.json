@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Todo - Remember Everything",
+    "description": "App to keep track of all the tasks and todos.",
+    "version": "1.0",
+    "action": {
+        "default_title": "Todo - Remember Everything",
+        "default_popup": "index.html",
+        "default_icon": "to-do.png"
+    },
+    "author": "https://github.com/prashantyadav1397",
+    "icons": [
+        {
+            "16": "to-do.png"
+        },
+        {
+            "32": "to-do.png"
+        },
+        {
+            "48": "to-do.png"
+        },
+        {
+            "128": "to-do.png"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone"
+}
