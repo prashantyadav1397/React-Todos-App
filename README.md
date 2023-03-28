@@ -33,10 +33,10 @@ The App is device responsive and can be used independently on different kinds of
 
 ### Resources
 
-Learn more about React: - https://react.dev/
-Learn more about Material UI: - https://mui.com/
-Learn more about GitHub pages: - https://docs.github.com/en/pages
-React Icons: - https://react-icons.github.io/react-icons
+Learn more about React: - https://react.dev/ </br>
+Learn more about Material UI: - https://mui.com/ </br>
+Learn more about GitHub pages: - https://docs.github.com/en/pages </br>
+React Icons: - https://react-icons.github.io/react-icons </br>
 Free icons resources (Please provide due credit to the resource owner or the source): - https://www.flaticon.com/
 
 ### Future Scope
