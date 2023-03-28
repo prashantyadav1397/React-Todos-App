@@ -11,16 +11,9 @@
     "author": "https://github.com/prashantyadav1397",
     "icons": [
         {
-            "16": "to-do.png"
-        },
-        {
-            "32": "to-do.png"
-        },
-        {
-            "48": "to-do.png"
-        },
-        {
-            "128": "to-do.png"
+            "src": "to-do.png",
+            "sizes": "64x64 32x32 24x24 16x16 128x128",
+            "type": "image/png"
         }
     ],
     "start_url": ".",
