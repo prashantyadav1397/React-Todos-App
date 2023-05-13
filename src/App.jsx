@@ -18,7 +18,7 @@ const App = () => {
   const muiCache = createCache({
     key: 'mui',
     prepend: true,
-  })
+  });
 
   return (
     <CacheProvider value={muiCache}>
@@ -37,7 +37,6 @@ const App = () => {
       </ThemeProvider>
     </CacheProvider>
   )
-
 }
 
-export default App
+export default App;

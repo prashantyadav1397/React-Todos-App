@@ -3,19 +3,19 @@ import Fab from '@mui/material/Fab'
 import { IoIosArrowUp } from 'react-icons/io'
 
 const ScrollToTop = () => {
-    const [isTop, setIsTop] = useState(true)
+    const [isTop, setIsTop] = useState(true);
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
             setIsTop(window.scrollY === 0 ? true : false)
-        })
+        });
 
         return () => {
             window.removeEventListener('scroll', () => {
                 setIsTop(true)
-            })
+            });
         }
-    }, [isTop])
+    }, [isTop]);
 
     return (
         <div>
@@ -37,4 +37,4 @@ const ScrollToTop = () => {
     )
 }
 
-export default ScrollToTop
+export default ScrollToTop;

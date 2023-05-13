@@ -6,7 +6,7 @@ import ToDoListContext from '../Context/TodoListContext'
 
 const SubHeader = () => {
 
-    const { onDeleteAll, onSortTodos, todos, isDescending, setIsDescending } = useContext(ToDoListContext)
+    const { onDeleteAll, onSortTodos, todos, isDescending, setIsDescending } = useContext(ToDoListContext);
 
     return (
         <div className="subHeaders">
@@ -28,4 +28,4 @@ const SubHeader = () => {
     )
 }
 
-export default SubHeader
+export default SubHeader;

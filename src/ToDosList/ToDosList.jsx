@@ -8,12 +8,20 @@ import ToDoListContext from '../Context/TodoListContext'
 
 const ToDosList = () => {
 
-    const { todos, onDelete, onEditTodo } = useContext(ToDoListContext)
+    const {
+        todos,
+        onDelete,
+        onEditTodo,
+        isInput,
+        filteredTodos
+    } = useContext(ToDoListContext);
+
+    const data = isInput ? todos : filteredTodos;
 
     return (
         <div className='todos_list '>
             <List sx={{ width: '100%', wordBreak: 'break-all', wordWrap: 'break-word' }}>
-                {todos.map(({ id, todo, createdAt }) => {
+                {data.map(({ id, todo, createdAt }) => {
                     return (
                         <div key={(id)} className='todo_list_item'>
                             <ListItem >
@@ -45,4 +53,4 @@ const ToDosList = () => {
     )
 }
 
-export default ToDosList
+export default ToDosList;

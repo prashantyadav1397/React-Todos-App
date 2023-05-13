@@ -35,7 +35,7 @@ body {
 .add_todo {
     min-height: max-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto 0;
     padding-top: 20px;
     align-items: center;

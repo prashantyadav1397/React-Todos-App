@@ -12,9 +12,9 @@ const Snackbars = () => {
   const {
     snackbarState,
     setSnackbarState
-  } = useContext(ToDoListContext)
+  } = useContext(ToDoListContext);
 
-  const { open, severity, message } = snackbarState
+  const { open, severity, message } = snackbarState;
 
   const handleClose = () => {
     setSnackbarState({ ...snackbarState, open: false });
@@ -29,4 +29,4 @@ const Snackbars = () => {
   )
 }
 
-export default Snackbars
+export default Snackbars;
