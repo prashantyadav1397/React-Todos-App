@@ -33,6 +33,10 @@ const ToDoListContextProvider = ({ children }) => {
     useEffect(() => {
         localStorage.setItem("todos", JSON.stringify(todos));
         setFilteredTodos([...todos]);
+
+        return () => {
+            setFilteredTodos([]);
+        };
     }, [todos, isInput]);
 
     // handle submit event
@@ -59,7 +63,7 @@ const ToDoListContextProvider = ({ children }) => {
             })
             return;
         }
-        
+
         if (((e.keyCode === 13 && todoText !== "") || (e.type === "click" && todoText !== "")) && isInput) {
             const timestampNow = new Date();
             setTodos([{ id: uuidv4(), todo: todoText, createdAt: timestampNow }, ...todos]);

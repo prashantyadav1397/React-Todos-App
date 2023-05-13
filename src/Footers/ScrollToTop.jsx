@@ -14,7 +14,7 @@ const ScrollToTop = () => {
             window.removeEventListener('scroll', () => {
                 setIsTop(true)
             });
-        }
+        };
     }, [isTop]);
 
     return (
